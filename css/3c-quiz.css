@@ -1244,24 +1244,41 @@
 .page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .left-content{
   width: 50%;
   float: left;
+  position: relative;
 }
 .page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .right-content{
   width: 50%;
   float: right;
+  position: relative;
 }
 .page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content img{
   width: 70%;
   display: table;
   margin: 0 auto;
   min-width: 100px;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
-.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content img:hover{
-  transform: scale(1.15,1.15);
-  box-shadow: 2px -2px 32px 5px rgba(255,255,255,1);
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .left-content .bg-goicauhoi{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 70%;
+  opacity: 0;
 }
-.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content img:focus{
-  transform: scale(1.15,1.15);
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .right-content .bg-goicauhoi{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 70%;
+  opacity: 0;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .left-content .bg-goicauhoi:hover{
+  opacity: 1;
+}
+.page-game .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-content .right-content .bg-goicauhoi:hover{
+  opacity: 1;
 }
 .page-beer100{
   background: url(../images/bg-beer100.jpg) no-repeat;
