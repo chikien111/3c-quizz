@@ -253,14 +253,14 @@
 .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .content{
   position: absolute;
   width: 35%;
-  top: 52%;
+  top: 53%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
   animation: opacity-1 5s;
 }
 .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .content p{
-  font-size: calc(3px + 1vw);
+  font-size: calc(2px + 1vw);
   text-align: center;
   font-weight: 500;
    font-family: "SVN-GothamMedium";
@@ -821,10 +821,10 @@
 
   .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .content{
     width: 56%;
-    top: 59%;
+    top: 61%;
   }
   .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .content p{
-    font-size: calc(4px + 2vw);
+    font-size: calc(3px + 2vw);
   }
   .page-3c-question .page-main .blk-gr3c-animation .inner-gr3c-animation .main-home .md-ctn-button{
     width: 60%;
